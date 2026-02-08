@@ -1,11 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.02b5475c.css",
-    "main.js": "/portfolio/static/js/main.86196991.js",
+    "main.js": "/portfolio/static/js/main.e50550d0.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/Luminary_demo2.mov": "/portfolio/static/media/Luminary_demo2.6bae1c001d5a8c331d16.mov",
     "static/media/parkeasedemo.mp4": "/portfolio/static/media/parkeasedemo.d1d4399a7b1f1b4c7b65.mp4",
-    "static/media/Luminary_demo1.mov": "/portfolio/static/media/Luminary_demo1.74b8edda03a2a154a07c.mov",
     "static/media/useyourvoicedemo.MP4": "/portfolio/static/media/useyourvoicedemo.11ce52e3a536f573f5c6.MP4",
     "static/media/voicedemo.mp4": "/portfolio/static/media/voicedemo.11ce52e3a536f573f5c6.mp4",
     "static/media/umsi.png": "/portfolio/static/media/umsi.61bd04ed23c4a30e099a.png",
@@ -24,11 +22,11 @@
     "static/media/parkeaselogo.png": "/portfolio/static/media/parkeaselogo.444edbb536c8ebba93fd.png",
     "index.html": "/portfolio/index.html",
     "main.02b5475c.css.map": "/portfolio/static/css/main.02b5475c.css.map",
-    "main.86196991.js.map": "/portfolio/static/js/main.86196991.js.map",
+    "main.e50550d0.js.map": "/portfolio/static/js/main.e50550d0.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02b5475c.css",
-    "static/js/main.86196991.js"
+    "static/js/main.e50550d0.js"
   ]
 }
