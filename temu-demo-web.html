@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
 <meta charset="UTF-8">
-<title>Product Details</title>
+<title>商品详情</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <script>
@@ -50,14 +50,14 @@ object-fit: cover;
 <nav class="flex items-center mb-6">
 <button class="flex items-center text-gray-600" onclick="window.close()">
 <i class="fas fa-arrow-left mr-2"></i>
-Back
+返回
 </button>
 </nav>
 <div class="grid grid-cols-12 gap-8">
 <div class="col-span-7">
 <div class="bg-white rounded-lg p-4 shadow-sm">
 <img src="https://ai-public.mastergo.com/ai/img_res/bf575fe26e85a43b6c8eff25ef98398d.jpg"
-alt="Nordic Minimalist Two-Seater Sofa"
+alt="北欧简约双人沙发"
 class="product-image rounded-lg mb-4">
 <div class="flex gap-4 overflow-x-auto py-2">
 <img src="https://ai-public.mastergo.com/ai/img_res/d9ed584e679567a6ba9cac01955e68f2.jpg"
@@ -71,40 +71,40 @@ class="thumbnail rounded cursor-pointer">
 </div>
 <div class="col-span-5">
 <div class="bg-white rounded-lg p-6 shadow-sm">
-<h1 class="text-2xl font-medium mb-4">Nordic Minimalist Two-Seater Sofa</h1>
+<h1 class="text-2xl font-medium mb-4">北欧简约双人沙发</h1>
 <div class="text-3xl font-bold text-primary mb-6">¥ 1,299</div>
 <div class="mb-6">
-<div class="text-gray-600 mb-2">Dimensions</div>
+<div class="text-gray-600 mb-2">规格</div>
 <div class="text-lg">180cm × 95cm × 85cm</div>
 </div>
 <div class="grid grid-cols-2 gap-4 mb-6">
 <button onclick="showARModal()" class="flex items-center justify-center bg-gray-100 text-gray-800 py-3 px-6 rounded-button hover:bg-gray-200">
 <i class="fas fa-camera mr-2"></i>
-AR Preview
+AR 实景预览
 </button>
 <button onclick="showDimensionsModal()" class="flex items-center justify-center bg-gray-100 text-gray-800 py-3 px-6 rounded-button hover:bg-gray-200">
 <i class="fas fa-ruler mr-2"></i>
-View dimensions
+查看尺寸
 </button>
 </div>
 <div class="mb-6">
 <div class="flex justify-between items-center mb-2">
-<div class="text-gray-600">Size accuracy feedback</div>
+<div class="text-gray-600">尺寸准确度反馈</div>
 <div class="text-primary font-medium">98%</div>
 </div>
 <div class="bg-gray-200 rounded-full h-2">
 <div class="bg-primary rounded-full h-2" style="width: 98%"></div>
 </div>
-<div class="text-gray-500 text-sm mt-2">Based on 1,286 buyer reviews in the last 30 days</div>
+<div class="text-gray-500 text-sm mt-2">基于近 30 天 1,286 位买家反馈</div>
 </div>
 <button class="w-full bg-primary text-white py-4 rounded-button hover:bg-primary/90">
-Buy now
+立即购买
 </button>
 </div>
 </div>
 </div>
 <div class="mt-8">
-<h2 class="text-xl font-medium mb-4">Buyer photos</h2>
+<h2 class="text-xl font-medium mb-4">买家实景图</h2>
 <div class="grid grid-cols-3 gap-4">
 <img src="https://ai-public.mastergo.com/ai/img_res/d36df9768844cc4847b12865011835d7.jpg"
 class="rounded-lg w-full h-64 object-cover">
@@ -117,7 +117,7 @@ class="rounded-lg w-full h-64 object-cover">
 <div id="arModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center z-50">
 <div class="bg-white rounded-lg p-6 max-w-4xl w-full mx-4">
 <div class="flex justify-between items-center mb-4">
-<h2 class="text-xl font-medium">AR Preview</h2>
+<h2 class="text-xl font-medium">AR 实景预览</h2>
 <button onclick="closeARModal()" class="text-gray-500 hover:text-gray-700">
 <i class="fas fa-times"></i>
 </button>
@@ -125,13 +125,13 @@ class="rounded-lg w-full h-64 object-cover">
 <div class="relative w-full" style="padding-top: 56.25%">
 <img src="https://ai-public.mastergo.com/ai/img_res/4fe586386b136e28a22d0aaa2a3adac7.jpg" class="absolute inset-0 w-full h-full object-cover rounded-lg">
 </div>
-<p class="text-gray-500 text-sm mt-4">Tip: Scan the QR code with your phone to try AR preview</p>
+<p class="text-gray-500 text-sm mt-4">提示：请使用手机扫描二维码，体验 AR 实景预览功能</p>
 </div>
 </div>
 <div id="dimensionsModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center z-50">
 <div class="bg-white rounded-lg p-6 max-w-4xl w-full mx-4">
 <div class="flex justify-between items-center mb-4">
-<h2 class="text-xl font-medium">Dimensions</h2>
+<h2 class="text-xl font-medium">尺寸详情</h2>
 <button onclick="closeDimensionsModal()" class="text-gray-500 hover:text-gray-700">
 <i class="fas fa-times"></i>
 </button>
